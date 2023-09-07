@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>تطبيق عملي لا اخذ شهادة css من قبل كودر شاير </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .media-item {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>عرض جميع الصور والفيديوهات والصوتيات على موقعنا الالكتروني </h1>
+        <nav>
+            <ul>
+                <li><a href="#">الصفحة الرئيسية</a></li>
+                <li><a href="#">الصور</a></li>
+                <li><a href="#">الفيديو</a></li>
+                <li><a href="#">الصوت</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="content">
+        <div class="media-item">
+            <img src="i.jpg" width="250" alt="صورة 1">
+            <h2>عنوان الصورة 1</h2>
+            <p>وصف الصورة 1</p>
+        </div>
+        
+        <div class="media-item">
+            <video src="v.mp4" width="250" controls></video>
+            <h2>عنوان الفيديو 1</h2>
+            <p>وصف الفيديو 1</p>
+        </div>
+        
+        <div class="media-item">
+            <audio src="a.mp3" controls></audio>
+            <h2>عنوان الصوت 1</h2>
+            <p>وصف الصوت 1</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2023</p>
+    </footer>
+</body>
+</html>
